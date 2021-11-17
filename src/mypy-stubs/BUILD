@@ -1,3 +1,3 @@
 python_library(
-    sources=["**/*.pyi"]
+    sources=["**/*.pyi", "**/__init__.py"]
 )

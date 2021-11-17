@@ -1,13 +1,15 @@
 [GLOBAL]
-pants_version = "2.5.0"
+pants_version = "2.8.0"
 
 backend_packages = [
     "pants.backend.python",
+    "pants.backend.python.typecheck.mypy",
 ]
 
 [source]
 root_patterns = [
     "src/python",
+    "src/mypy-stubs",
     "test/python",
     "pants-plugins",
 ]
